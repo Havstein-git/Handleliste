@@ -1,3 +1,8 @@
+h2 {
+    text-align: center;
+}
+
+
 /* REMOVING THE DEFAULT STYLINGS FROM THE PAGE */
 *{
     margin: 0;
@@ -77,10 +82,16 @@ select{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .todo_list{
-    min-width: 40%;
+    min-width: 80%;
+    min-height: 960px;
     list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 20px;
+    padding: 6px 6px 6px 15px;
+    
 }
 
 .todo{
@@ -93,7 +104,9 @@ select{
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
 }
+
 
 .todo li {
     flex: 1;
